@@ -34,6 +34,7 @@ body {
 .grid {
     display: grid;
     grid-template-columns: 0.65fr 0.35fr;
+    column-gap: 24px;
     /* grid-template-rows: 1fr 1fr; */
 }
 
@@ -63,14 +64,34 @@ body {
     width: 200px;
     background-color: #F25C53;
     color: white;
-    padding: 8px;
+    padding: 16px;
     border: none;
     letter-spacing: 1px;
 }
 
 .new-news-column {
-    background-color: yellow;
+    background-color: #00001A;
     grid-row-start: 1;
     grid-row-end: 3;
     grid-column-start: 2;
+    padding: 16px;
 }
+
+.new-news-heading {
+    color: #F2AB4B;
+    font-size: 1.5rem;
+}
+
+.new-news-article-heading {
+    color: white;
+    font-weight: 600;    
+}
+
+.new-news-article-summary {
+    color: white;
+    color: rgba(255, 255, 255, 0.623);
+}
+
+/* 
+
+*/
