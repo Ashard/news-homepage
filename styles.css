@@ -82,16 +82,30 @@ body {
     font-size: 1.5rem;
 }
 
+.new-news-element {
+    margin-bottom: 8px;
+    border-bottom: rgba(255, 255, 255, 0.514) solid 1px;
+}
+
 .new-news-article-heading {
     color: white;
     font-weight: 600;    
+    margin-top: 24px;
+    margin-bottom: 8px;
 }
 
 .new-news-article-summary {
     color: white;
     color: rgba(255, 255, 255, 0.623);
+    margin-bottom: 16px;
 }
 
-/* 
 
-*/
+.article-element-row {
+    display: flex;
+}
+
+.article-element-column {
+    display: flex;
+    flex-direction: column;
+}
