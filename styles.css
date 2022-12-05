@@ -101,6 +101,12 @@ body {
 }
 
 
+/* Articles section  */
+.articles-row {
+    margin-top: 56px;
+    display: flex;
+}
+
 .article-element-row {
     display: flex;
 }
@@ -108,4 +114,27 @@ body {
 .article-element-column {
     display: flex;
     flex-direction: column;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.article-count {
+    font-size: 1.35rem;
+    color: grey;
+    font-weight: 600;
+}
+
+.article-heading {
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+.article-summary {
+    color: #747474;
+    line-height: 150%;
+}
+
+.article-img {
+    width: 100%;
+    max-width: 150px;
 }
